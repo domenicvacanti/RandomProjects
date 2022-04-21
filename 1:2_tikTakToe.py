@@ -56,7 +56,7 @@ def ticTacToe():
                     print("O's have won " + str(oCounter) + " time(s).")
                     print("There has been " + str(tieCounter) + " tie(s).")
                     return "Good job everyone! Hope you had fun!"
-            elif counterForTies == 7:
+            elif counterForTies == 9:
                 tieCounter = tieCounter + 1
                 print("\n")
                 print("    1    2    3")
