@@ -84,3 +84,7 @@ def ticTacToe():
         else:
             print("\n")
             print("##Try a different spot, that one is already taken!##")
+
+def __main__():
+    ticTacToe()
+    return
